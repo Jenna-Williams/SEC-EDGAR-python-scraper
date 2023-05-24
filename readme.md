@@ -11,14 +11,14 @@
 2. To scrape data run scraper.py and pass symbols of companies you want to scrape and year
       ```
          python scrape.py
-      ```.
+      ```
         
    The scraped files are stored in scraped folder 
 
    To label all scraped files just run 
       ```
          label.py
-      ```.
+      ```
 
 ## Contribution
 The original dev is seeking conributiors to improve efficiency, structure and functionality.
