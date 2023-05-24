@@ -1,18 +1,14 @@
-# About this project 
+# SEC - EDGAR | Web Scraper
 
-   The main idea of project is to make efficient fundamental data scraper which will provide accurately sorted financial information.
-   
-   At the current state the scraper is a fully functioning and written using Scrapy library.
-        The data is scrapped only from 2011 onward.
-
-   The labeling script decides on the document type and stores it in parsed folder.
-
-   The Aggregation script is in very raw stage of progress and I will be working on it in the upcoming month.  
+* This project will scrape and return fundamental financial data.
+* In the current state it is fully functional, utilizing Python and the Scrapy library.
+* Data exists from 2011.
+* The labeling script determines document type and stores in a parsed folder.
+* The aggregation script is in the early stages and will be further developed.
 
 ## Getting Started
-   Copy the repository and Install requirement.txt using pip
-  
-   To scrape data run scraper.py and pass symbols of companies you want to scrape and year
+1. Copy the repository and Install requirement.txt using pip
+2. To scrape data run scraper.py and pass symbols of companies you want to scrape and year
       ```
          python scrape.py
       ```.
@@ -25,7 +21,7 @@
       ```.
 
 ## Contribution
-I am actively seeking contributors to improve efficiency, structure and functionality.
+The original dev is seeking conributiors to improve efficiency, structure and functionality.
 
 ## License
 
@@ -33,5 +29,9 @@ This project is licensed under the terms of the MIT license.
 
 "# SEC-EDGAR-python-scraper" 
 
+# Additional Features
+* I plan to expand this project by adding additional data sources, beyond the EDGAR database.
+
 ## A note 
-Also, I am third year finance major, and been learning programming for less than a year, therefore the code inefficiencies and the structure might look out of place as I am not familiar with many programming convensions. 
+I have a second degree in accounting and currently sitting for the CPA Exams (halfway there). 
+
